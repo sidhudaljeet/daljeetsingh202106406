@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike - Products</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .product {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nike - Products</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main class="container">
+        <section class="product">
+            <h2>Nike Shoes</h2>
+            <img class="product-image" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/64d6107b-b6b1-4149-b2f9-41c163694a22/air-pegasus-89-g-nrg-golf-shoes-CmK9zT.png" alt="Nike Shoes">
+            <p>Explore our latest collection of Nike shoes designed for every sport and activity.</p>
+        </section>
+        <section class="product">
+            <h2>Nike Apparel</h2>
+            <img class="product-image" src="data:image/jpeg;base64,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" alt="Nike Apparel">
+            <p>Discover our range of comfortable and stylish Nike apparel for men, women, and kids.</p>
+        </section>
+        <section class="product">
+            <h2>Nike Accessories</h2>
+            <img class="product-image" src="data:image/jpeg;base64,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" alt="Nike Accessories">
+            <p>Enhance your performance and style with our selection of Nike accessories, including bags, hats, and more.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nike. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
